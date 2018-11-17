@@ -17,6 +17,7 @@ services:
         envsubst '$$DOMAIN $$SUBNET' < /etc/nginx/conf.d/at.template > /etc/nginx/conf.d/at.conf
         envsubst '$$DOMAIN $$SUBNET' < /etc/nginx/conf.d/github.template > /etc/nginx/conf.d/github.conf
         envsubst '$$DOMAIN $$SUBNET' < /etc/nginx/conf.d/static.template > /etc/nginx/conf.d/static.conf
+        envsubst '$$DOMAIN $$SUBNET' < /etc/nginx/conf.d/frp.template > /etc/nginx/conf.d/frp.conf
         nginx -g 'daemon off;'
     networks:
       frontend:
