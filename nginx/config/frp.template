@@ -4,7 +4,7 @@ upstream frp{
 
 server{
   listen 80;
-  server_name frp.${DOMAIN};
+  server_name frp.${DOMAIN} *.frp.${DOMAIN};
   location / {
     proxy_pass http://frp;
   }

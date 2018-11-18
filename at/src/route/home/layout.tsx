@@ -1,8 +1,12 @@
 import * as React from 'react'
 import {Component} from "react";
+import {RouteComponentProps} from 'react-router-dom'
 
-export default class extends Component {
-  render(){
-    return <div id="home">home</div>
-  }
+interface HomeLayoutProps extends RouteComponentProps {
+}
+
+export default class extends Component<HomeLayoutProps> {
+    render() {
+        return <div id="home_layout">home</div>
+    }
 }

@@ -1,9 +1,29 @@
+import i18n from '../services/i18n'
+
+/**
+ * 主layout
+ */
 import Home from './home/layout'
+import User from './user/layout'
 
 const routes = [
   {
     path: '/',
     component: Home
+  },
+
+
+  {
+    path: '/user',
+    component: User
+  }, {
+    path: '/user/login',
+    name: i18n.get('login-title'),
+    component: require('./user/login').default
+  }, {
+    path: '/user/register',
+    name: i18n.get('register-title'),
+    component: require('./user/register').default
   }
 ];
 
@@ -20,6 +40,6 @@ export const getChildrenRoutes = (path: string, except?: string | string[]) => {
   });
 };
 
-export const getRouteByPath = (path: string) => routes.filter(item => item.path === path);
+export const getRouteByPath = (path: string) => routes.filter(item => item.path === path)[0];
 
 export default routes;

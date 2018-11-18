@@ -1,0 +1,18 @@
+{
+  "confirm": "确认",
+  "cancel": "取消",
+
+  "login-title": "登录",
+  "login-username-placeholder": "用户名",
+  "login-username-required-message": "请输入用户名",
+  "login-password-placeholder": "密码",
+  "login-password-required-message": "请输入密码",
+  "keep-login": "保持登录",
+  "forget-password": "忘记密码？",
+  "forget-password-content": "请联系管理员重置密码",
+  "login-button": "登录",
+  "login-failed": "登录失败",
+  "login-failed-content": "用户名或密码错误",
+
+  "register-title": "注册"
+}

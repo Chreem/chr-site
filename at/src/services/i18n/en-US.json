@@ -1,10 +1,10 @@
 {
-  "login-title": "登录",
-  "login-username-placeholder": "用户名",
-  "login-username-required-message": "请输入用户名",
-  "login-password-placeholder": "密码",
-  "login-password-required-message": "请输入密码",
-  "keep-login": "保持登录",
-  "forget-password": "忘记密码？",
-  "register-title": "注册"
+  "login-title": "Login",
+  "login-username-placeholder": "Username",
+  "login-username-required-message": "Please enter username",
+  "login-password-placeholder": "Password",
+  "login-password-required-message": "Please enter password",
+  "keep-login": "Keep login",
+  "forget-password": "Forget password?",
+  "register-title": "Register"
 }
